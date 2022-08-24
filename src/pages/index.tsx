@@ -1,14 +1,10 @@
-import Link from 'next/link'
+import { Button } from '@mantine/core'
+import { NextPage } from 'next'
 
-const IndexPage = () => (
+const Index: NextPage = () => (
   <>
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
+    <Button loading>Witam</Button>
   </>
 )
 
-export default IndexPage
+export default Index
